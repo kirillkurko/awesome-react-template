@@ -1,6 +1,11 @@
 # awesome-react-template
 Create React app with TypeScript, ESLint, Prettier configured in a single command.
 
+> **Warning**: template is in his early days, so issues and incompatibilities
+> are possible. Feel free to contribute and report issues if they appear. 
+> I'll do some heavy testing in next weeks to make sure that it's working 
+> fine with at least most popular libraries.
+
 ## Motivation
 
 React ecosystem is flexible. And that's great, because you can configure only the 
@@ -30,3 +35,6 @@ higher versions. Node version will be increased in the future.
 ESLint and Prettier configurations are opinionated, but they are based on best practices and this
 is what I see in almost every project, so I feel that we're moving to kinda industry-wide 
 standard config. Better description of present config is coming soon.
+
+Dependabot is used to keep dependencies up to date. If you don't need it or if your 
+repository is not hosted on GitHub, you can remove `.github` folder.
