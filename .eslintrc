@@ -29,6 +29,25 @@
   },
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "unicorn/prefer-query-selector": "off"
+    "unicorn/prefer-query-selector": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": ["enum", "enumMember"],
+        "format": ["StrictPascalCase"]
+      }
+    ],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        },
+        "ignore": ["vite-env.d.ts"]
+      }
+    ]
   }
 }
