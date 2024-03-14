@@ -32,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-unicorn": "^51.0.1",
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "vite": "^5.1.5"
   }
 }
